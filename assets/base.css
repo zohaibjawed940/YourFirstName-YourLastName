@@ -3566,3 +3566,109 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+.custom-header {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 5px 50px 5px 50px;
+}
+
+.image-banner {
+  height: 92vh;
+  background-image: url("https://img.freepik.com/premium-photo/product-photography-simple-background-watch-with-chinese-landscape-carving-style_919910-662.jpg?w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.custom-content-banner {
+  margin-bottom: 50px;
+  padding: 0px 100px 0px 100px;
+  color: white;
+}
+
+.custom-primary-heading {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0px;
+}
+.custom-body-text {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: regular;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#custom-section-cta, #gift-btn-header {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 50px 12px 50px;
+  box-shadow: none;
+  border: none;
+}
+
+@media screen and (max-width: 1800px) {
+  .mobile-image-banner {
+      display: none;
+  }
+
+  .custom-header-mobile {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .custom-header {
+      display: none;
+  }
+
+  .image-banner {
+      display: none;
+  }
+
+  .custom-header-mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 8vh;
+      background-color: #F5F5F5;
+  }
+
+  .mobile-image-banner {
+      height: 92vh;
+      background-image: url("https://i.brecorder.com/primary/2023/11/0815162929f17ef.jpg");
+      display: block;
+      background-position: center;
+      background-size: cover;
+      background-blend-mode: darken;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end   ;
+  }
+
+  .custom-primary-heading {
+      color: white;
+      font-size: 28px;
+  }
+
+  .custom-body-text {
+      width: 100%;
+      font-size: 12px;
+  }
+
+  .custom-content-banner {
+      padding: 0px 30px 0px 30px;
+  }
+}
