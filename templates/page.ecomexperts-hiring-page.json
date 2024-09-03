@@ -9,7 +9,15 @@
 */
 {
   "sections": {
-    "1st_custom_section_JcrEAP": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1st_custom_section_xbtXTb": {
       "type": "1st-custom-section",
       "settings": {
         "heading": "Tisso Vision",
@@ -22,6 +30,7 @@
     }
   },
   "order": [
-    "1st_custom_section_JcrEAP"
+    "main",
+    "1st_custom_section_xbtXTb"
   ]
 }
